@@ -3,11 +3,16 @@ font-size: 16px;
 }
 
 body {
-    background-image: url("horse-race.jpg");
+    background-image: url("/horse-race.jpg");
     background-size: cover;
-    font-family: (arial, trebuchet);
+    font-family: ('Arial', 'Trebuchet MS' or 'Arial, Trebuchet MS');
     font-weight: bold;
     text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 }
 
 h1 {
@@ -76,12 +81,12 @@ button {
 }
 
 #container {
-    width: 30vw;
+    width: 40vw;
     height: auto;
     background-image: linear-gradient(white, black);
     display: block;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 8%;
     border-radius: 10px;
 }
 
@@ -89,30 +94,27 @@ button {
     height: 30px;
 }
 
-@media screen and (max-width: 980px) {
-
+@media only screen and (max-device-width : 830px) {
     #container {
-        width: 40vw;
+        margin-top: 16%;
     }
 }
 
-@media screen and (max-width: 780px) {
-
+@media only screen and (max-device-width : 620px) {
     #container {
-        width: 50vw;
+        margin-top: 30%;
     }
 }
 
-@media screen and (max-width: 630px) {
-
+@media only screen and (max-device-width : 460px) {
     #container {
-        width: 60vw;
+        margin-top: 40%;
     }
 }
 
-@media screen and (max-width: 540px) {
-
+@media only screen and (max-device-width : 320px) {
     #container {
-        width: 70vw;
+        margin-top: 55%;
     }
 }
+

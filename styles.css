@@ -3,7 +3,7 @@ font-size: 16px;
 }
 
 body {
-    background-image: url("/horse-race.jpg");
+    background-image: url("horse-race.jpg");
     background-size: cover;
     font-family: ('Arial', 'Trebuchet MS' or 'Arial, Trebuchet MS');
     font-weight: bold;
